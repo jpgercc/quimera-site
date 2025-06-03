@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #004aad;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+.video-section {
+  padding: 40px;
+  text-align: center;
+  background: white;
+}
+
+.video-section h2 {
+  margin-bottom: 20px;
+}
+
+.carousel {
+  position: relative;
+  padding: 40px 0;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: 100%;
+  padding: 40px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.slide h2 {
+  margin-bottom: 20px;
+  color: #004aad;
+}
+
+.nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 74, 173, 0.8);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.nav:hover {
+  background-color: rgba(0, 74, 173, 1);
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+a {
+  text-decoration: none; /* Remove o sublinhado */
+  color: inherit; /* Pega a cor do elemento pai, ou defina uma cor padrão aqui */
+}
+
+a:hover {
+  color: rgb(30, 219, 12); /* Muda para azul no hover */
+}
+
+footer {
+  background-color: #004aad;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
